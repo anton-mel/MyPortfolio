@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+main {
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  transition: 0.1s;
+}
+
+.gitbtn {
+  opacity: 0.99;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.git {
+  margin-right: 7px;
+}
+
+.link {
+  position: relative;
+  transition: .1s;
+}
+
+.link4 {
+  position: relative;
+  transition: .1s;
+}
+
+.link4:after {
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  transition: .1s;
+  height: 5px;
+  z-index: -1;
+  opacity: .5;
+  background: red;
+}
+
+.link:after {
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  transition: .1s;
+  height: 5px;
+  z-index: -1;
+  opacity: .5;
+  background: red;
+}
+
+.link:hover:after {
+  transition: .1s;
+  height: 26px;
+}
+
+.link3 {
+  position: relative;
+  transition: .1s;
+}
+
+.link3:after {
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  transition: .1s;
+  height: 5px;
+  z-index: -1;
+  opacity: .5;
+  background: red;
+}
+
+.link3:hover:after {
+  transition: .1s;
+  height: 30px;
+}
+
+.link2 {
+  position: relative;
+  transition: .1s;
+}
+
+.link2:after {
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  transition: .1s;
+  height: 5px;
+  z-index: -1;
+  opacity: .5;
+  background: rgb(0, 123, 255);
+}
+
+.link2:hover:after {
+  transition: .1s;
+  height: 26px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  outline: none;
+}
+
+.ProjectWrapper{
+  margin-top: 10rem;
+}
+
+.PrimaryBtn {
+  padding: 10px 20px;
+  border: none;
+  background: #e25e52;
+  color: #f6f6f6;
+}
+
+.SecondaryBtn{
+  padding: 10px 18px;
+  border: 2px solid #d45146;
+  color: #010606;
+  margin-right: 1rem;
+}
+
+.PrimaryBtn:hover {
+  background: #d04545;
+}
+
+.Container {
+  max-width: 1000px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.BigCard {
+  padding: 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutBio{
+  text-align: justify;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #151418;
+  line-height: 1.6;
+}
+
+.tagline2 {
+  text-align: left;
+  max-width: 650px;
+  margin: 0;
+  color: #151418;
+  line-height: 1.6;
+}
+
+.tagline2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: #151418;
+  font-weight: normal;
+  margin-bottom: 3.5rem;
+}
+
+
+
+/* ------------------------------------ Media for Container */
+@media (max-width: 1000px) {
+  .Container {
+    padding: 0;
+  }
+}
