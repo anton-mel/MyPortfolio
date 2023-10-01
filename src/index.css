@@ -261,6 +261,6 @@ video {
     padding: 0;
   }
   main {
-    height: 150vh;
+    height: auto !important;
   }
 }
