@@ -12,10 +12,7 @@ function Home() {
       <Hero />
       <About />
       <Projects />
-      {/* <Contributions /> */}
       <Contact />      
-      <FixSocialIcon />
-      <Footer />
     </>
   );
 }

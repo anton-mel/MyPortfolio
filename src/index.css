@@ -210,6 +210,13 @@ video {
   margin-right: auto;
   margin-left: auto;
 }
+.mt{
+  margin-top: 40px;
+}
+.vid{
+  margin-top: 40px;
+  border-radius: 10px;
+}
 
 .BigCard {
   padding: 0;
@@ -228,15 +235,15 @@ video {
 
 .tagline2 {
   text-align: left;
-  max-width: 650px;
+  max-width: 550px;
   margin: 0;
   color: #151418;
   line-height: 1.6;
 }
 
 .tagline2 {
-  margin-top: 1rem;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .SectionTitle {
@@ -252,5 +259,8 @@ video {
 @media (max-width: 1000px) {
   .Container {
     padding: 0;
+  }
+  main {
+    height: 150vh;
   }
 }
