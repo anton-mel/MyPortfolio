@@ -263,4 +263,7 @@ video {
   main {
     height: auto !important;
   }
+  .vid{
+    height: 370px;
+  }
 }
