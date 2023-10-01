@@ -266,4 +266,10 @@ video {
   .vid{
     height: 370px;
   }
+  .ProjectWrapper{
+    margin-top: 4rem;
+  }
+  .sendb{
+    display: none;
+  }
 }

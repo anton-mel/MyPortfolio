@@ -22,7 +22,7 @@ function Contact() {
                 <span className="link4">anton.melnychuk@yale.edu</span>
               </div>
               <a
-                className="btn PrimaryBtn btn-shadow"
+                className="btn PrimaryBtn btn-shadow sendb"
                 href="mailto:anton.melnychuk3@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
