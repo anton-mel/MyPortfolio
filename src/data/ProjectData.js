@@ -33,7 +33,7 @@ export const ProjectList = [
       "A personal project build on learning new technologies.",
     tech_stack: ["React", "Pusher", "NextAuth", "Cloudinary", "Prisma"],
     github_url: "https://github.com/anton-mel/LiveMessenger",
-    demo_url: "https://mmessenger.vercel.app/",
+    demo_url: "https://mmmessenger.vercel.app/",
   },
   {
     img: "./projects/crm.jpg",
