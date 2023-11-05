@@ -42,7 +42,7 @@ export const ProjectList = [
       "CRM solution that allows businesses to remotely build databases through API routes.",
     tech_stack: ["React", "NextJS", "Clerk Auth", "TypeScript", "Prisma", "MySQL", "ShadCN/UI"],
     github_url: "https://github.com/anton-mel/ApiCRM",
-    demo_url: "https://api-crm-orcin.vercel.app/",
+    demo_url: "https://api-cqthcm5vw-antonmelnychuk3-gmailcom.vercel.app",
   },
   {
     img: "./projects/chrome.jpg",
