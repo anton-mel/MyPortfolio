@@ -23,8 +23,8 @@ export const ProjectList = [
     description:
       "Creating a more user-friendly platform for organizing clubs at Yale, using YaleConnect APIs and CAS.",
     tech_stack: ["React Native", "MongoDB", "Prisma", "Tailwind"],
-    github_url: "https://github.com/anton-mel/YaleClubsLocal",
-    demo_url: "https://yaleclubs.vercel.app/",
+    github_url: "https://github.com/YaleComputerSociety/YaleClubs",
+    demo_url: "https://yaleclubs-six.vercel.app/",
   },
   {
     img: "./projects/messenger.jpg",
