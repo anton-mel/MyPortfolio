@@ -93,6 +93,10 @@ export const stackList = [
     name: "C++",
   },
   {
+    img: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+    name: "Angular",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     name: "JavaScript",
   },
