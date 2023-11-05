@@ -55,12 +55,9 @@ function ProjectCard() {
       <ScrollAnimation animateIn="fadeIn">
         <div className="ProjectWrapper" id="projects">
           <div className="Container">
-          In fact, I am also a guitar player and have a small YouTube channel where I occasionally post performances and arrangements. Feel free to take a look at some of them.
+          In fact, I am also a guitar player and have a small YouTube channel where I occasionally post performances and arrangements. Feel free to take a <a className="link2" href="https://www.youtube.com/embed/1WgWeCgFUMQ?si=vcNTrjG0y4a97Onp&amp;start=52">look at some of them.</a>
           </div>
         </div>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInLeft">
-        <iframe width="100%" height="640px" className="vid" src="https://www.youtube.com/embed/1WgWeCgFUMQ?si=vcNTrjG0y4a97Onp&amp;start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </ScrollAnimation>
     </>
   );
